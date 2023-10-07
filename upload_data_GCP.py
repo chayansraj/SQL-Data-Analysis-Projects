@@ -3,7 +3,7 @@ import os
 import gcsfs
 from google.cloud import storage
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "D:\Downloads\sqlcovidanalysis-5149e3b8b26a.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "<your service account credentials>"
 #path = r"SQL-Data-Analysis-Projects\Project 2 - SQL Data Cleaning\Nashville Housing Data.xlsx"
 data = pd.read_excel("C:\\Users\\chaya\\Desktop\\SQL Data Analysis Projects\\SQL-Data-Analysis-Projects\\Project 2 - SQL Data Cleaning\\Nashville Housing Data.xlsx")
 
