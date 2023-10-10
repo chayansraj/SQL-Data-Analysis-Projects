@@ -3,12 +3,6 @@ alter table `sqlcovidanalysis.sqldatacleaning.nashville_raw`
 , drop column if exists sale_year
 , drop column if exists sale_month;
 
--- alter table `sqlcovidanalysis.sqldatacleaning.nashville_raw`
--- drop column if exists sale_year;
-
--- alter table `sqlcovidanalysis.sqldatacleaning.nashville_raw`
--- drop column if exists sale_month;
-
 alter table `sqlcovidanalysis.sqldatacleaning.nashville_raw`
 add column sale_date string
 , add column sale_year string
