@@ -8,4 +8,4 @@ FROM `sqlcovidanalysis.covid_data_analysis.covid_deaths`
 GROUP BY date
 ORDER BY TotalNewDeathPercentage DESC;
 
--- Looks like on 24th February 2020, the death percentage was highest standing at 30.08%, could also be known as the deadliest day in the world. 
+-- Looks like on 24th February 2020, the death percentage was highest standing at 30.08%, could also be known as the deadliest day in the Covid Era. 
